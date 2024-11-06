@@ -124,7 +124,7 @@ html,body{font-family: "Noto Sans KR", sans-serif;color: #333;}
 }
 
 /* con1 */
-.con1{padding: 100px 0 50px; background-color: #fafafa;}
+.con1{padding: 100px 0 50px; background-color: #fafafa;overflow: hidden;}
 .conwrap{width: 95%; max-width: 1620px;margin: 0 auto;text-align: center;}
 .conwrap>p{font-size: 50px;font-weight: bold;color:#000;position: relative;display: flex;justify-content: center;margin-bottom: 30px;}
 
@@ -202,7 +202,7 @@ html,body{font-family: "Noto Sans KR", sans-serif;color: #333;}
 }
 
 /* con3 */
-.con3{background-color: #234677;color: #fff;padding: 100px 0;box-sizing: border-box;align-items: flex-start;}
+.con3{background-color: #234677;color: #fff;padding: 100px 0;box-sizing: border-box;align-items: flex-start;overflow: hidden;}
 .con3_wrap{ width: 90%;max-width: 1620px;margin: 0 auto;display: flex;justify-content: space-between;}
 .con3_left>a{display: flex;}
 .con3_left>p:nth-child(1){font-size: 50px;font-weight: bold;color: #fff;line-height: 1.3;display: flex;}
@@ -234,7 +234,7 @@ html,body{font-family: "Noto Sans KR", sans-serif;color: #333;}
 }
 
 /* con4 */
-.con4{padding: 100px 0;}
+.con4{padding: 100px 0;overflow: hidden;}
 .con4_wrap{width: 98%;max-width: 1620px;margin: 0 auto;}
 .con4_title{margin-bottom: 50px;}
 .con4_title>p:nth-child(1){font-size: 32px;font-weight: bold;color: #666;display: flex;}
@@ -327,6 +327,6 @@ html,body{font-family: "Noto Sans KR", sans-serif;color: #333;}
 }
 
 /* top  */
-.top_btn{width: 90px;height: 90px;background-color: #888;color: #fff;position: fixed;right: 20px;bottom: 20px;display: flex;justify-content: center;align-items: center;flex-direction: column;transition: all 0.5s;z-index: 30;}
+.top_btn{width: 80px;height: 80px;background-color: #888;color: #fff;position: fixed;right: 20px;bottom: 20px;display: flex;justify-content: center;align-items: center;flex-direction: column;transition: all 0.5s;z-index: 30;}
 .top_btn img{transform: rotate(-90deg);}
 .top_btn:hover{border-radius: 50%;}
