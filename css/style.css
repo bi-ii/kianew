@@ -65,6 +65,8 @@ html,body{font-family: "Noto Sans KR", sans-serif;color: #333;}
  .site_sub>li{margin-bottom: 10px;}
  .site_sub a{font-size: 18px;display: flex;line-height: 40px;}
  .site_sub a::before{content: "·";margin-right: 5px;}
+ .site_fmenu{flex-wrap: wrap;align-items: center;justify-content: space-around;text-align: center;}
+ .site_fmenu>li{width: 40%;padding: 1vw 0;}
 }
 
 @media all and (max-width:768px){
